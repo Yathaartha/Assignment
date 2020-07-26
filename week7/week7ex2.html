@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="POST" name="singup" enctype="multipart/form-data">
+		<fieldset>
+			<table border=0 cellpadding="5" cellspacing="5" width="75%" >
+                <tr>
+                    <td colspan=2><h1>HTML Form Test</h1></td>
+                </tr>
+				<tr>
+					<td><label>Full Name</label></td>
+					<td><input type="text" name="name" size="30" maxlength="50"> 
+					</td>
+                </tr>
+                <tr>
+					<td><label>Address</label></td>
+					<td><input type="text" name="address" size="30" maxlength="50" required> </td>
+                </tr>
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="email" name="email" size="30" maxlength="50" required> </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="M">Male
+                        <input type="radio" name="gender" value="F">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Hobbies
+                    </td>
+                    <td>
+                        <input type="checkbox" name="s" value="php">Sports
+                        <input type="checkbox" name="m" value="java">Movies
+                        <input type="checkbox" name="t" value="asp">Travelling
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Country: Where are you from?
+                    </td>
+                    <td>
+                        <select name="Coutnry" size="1">
+                            <option value="">Nepal</option>
+                            <option value="Jpn">Japan</option>
+                            <option value="Swiss">Switzerland</option>
+                            <option value="Itl">Italy</option>
+                            <option value="Grc">Greece</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Message
+                    </td>
+                    <td>
+                        <textarea rows=10 cols=50></textarea>
+                    </td>
+                </tr>
+				<tr>
+					<td>
+					</td>
+					<td>
+						<input type="submit" name="submit" value="Submit"/>
+						<input type="reset" name="reset" value="Reset"/>
+					</td>
+				</tr>
+			</table> 
+		</fieldset>
+	</form>
+</body>
+</html>
